@@ -1,0 +1,238 @@
+/* animacines  */
+.animate__animated.animate__bounceInRight{
+    --animate-duration: 3s;
+}
+.animate__animated.animate__fadeInLeft{
+    --animate-duration: 3s;
+}
+.animate__animated.animate__fadeInDown{
+    --animate-duration: 4s;
+}
+.animate__animated.animate__lightSpeedInLeft{
+    --animate-duration: 4s;
+}
+/* body */
+
+body{
+    background-color:#F7F7F7 ;
+    top: 150%;
+    width: auto ;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.backgroud-primero{
+    top: 150%;
+    background:url(/src/img/fondo.jpg ) ;
+    width: auto ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.overlay{
+    background:rgba( 190, 190, 190,0.4);
+    width: 100%;
+    height: 100%;
+}
+.overlay-conocenos{
+    background:rgb(0, 0, 0,0.4);
+    width: 100%;
+    height: 100%;
+}
+
+
+/* conocenos */
+.conocenos{
+    background: url(/src/img/fondo.jpg);
+    width: 100% ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-grupo{
+    
+    background: url(/src/img/quienesSomos.jpg);
+    height: 450px;
+    width: auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* piePagina */
+.piePagina {
+    font-family: 'Staatliches', cursive;
+
+}
+.piePagina2{
+    font-family: 'Crete Round', serif;
+}
+.piePagina3{
+
+}
+
+
+/* fondo del menu */
+
+.texto_formulario{
+   padding-top: 10px;
+   text-align: center; 
+   padding-right: 150px;
+   font-family: 'Staatliches', cursive;
+
+}
+
+
+/* icon_servicios */
+.icon_servicios{
+    border-radius: 100% ;
+    border: solid 1px rgb(209, 206, 206);
+         
+}
+
+
+
+
+
+
+/* icono de whatsapp */
+.iconWhatsapp{
+ 
+color: #00bb2d;
+font-size: 50px;
+
+}
+
+.a-iconWhatsapp{
+ position: fixed;
+ bottom: 20px;
+ right:15px;
+}
+
+
+
+.footer{
+    background: #152F4F;
+    color:white;
+   
+}
+.copyright{
+    border-top: solid 1px gray ;
+}
+.row{
+    padding: 0%;
+    margin: 0;
+}
+.redes_sociales{
+width: 45px;
+height: 45px;
+line-height: 45px;
+font-size: 45px;
+padding: 12px 15px;
+text-align: center;
+margin-left: 440px;
+
+}
+.links ,ul,li,a{
+color: white;
+}
+.icon_servicios:hover{
+    color:blanchedalmond;
+    background-color:rgb(29, 29, 102);
+    transition: 0.9s;
+      
+} 
+ 
+
+ .fondo-conocenos{
+    top: 150%;
+    left: 0;
+    width: 100%;
+    height: 430px;
+    background-repeat: no-repeat;
+}  
+
+@media(max-width:768px){
+   
+    
+    
+    .a-iconWhatsapp{
+        position: fixed;
+        bottom: 20px;
+        right: 15px;
+        
+    }
+    
+    .links ,ul,li,a{
+        text-align: center;
+        list-style: none;
+        padding: 0,0,0,5px;
+        margin-top: 10px;
+    }
+    .location{
+        margin-top: 50px;
+        
+    }
+    .container-grupo{
+        display: none;
+    }
+
+}
+
+@media(max-width:1199px){
+   
+    .redes_sociales{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 45px;
+        padding: 12px 15px;
+        text-align: center;
+        margin: auto;
+    }
+    .icon_f{
+        margin-top: 20px;
+    }
+    
+    .backgroud-overlay{
+    
+    background-image:url(/src/img/fondoresponsive.jpg) ;
+    width: auto ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+    
+    .texto_formulario{
+        padding-top: 10px;
+        text-align: center; 
+        padding-right: 0%;
+     }
+    .iiframe{
+       
+        width:350px;
+        
+    }
+    .links ,ul,li,a{
+        text-align: center;
+        list-style: none;
+    }
+
+}
+
+
+@media(max-width:376px){
+    .iiframe{
+        width: 250px;
+    }
+}
