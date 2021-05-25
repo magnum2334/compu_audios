@@ -1,4 +1,6 @@
-/* animacines  */
+
+
+/* No CSS *//*# sourceMappingURL=estilos.css.map */
 .animate__animated.animate__bounceInRight{
     --animate-duration: 3s;
 }
@@ -14,7 +16,7 @@
 /* body */
 
 body{
-    background-color:#F7F7F7 ;
+    background-color:white;
     top: 150%;
     width: auto ;
     height: 100%;
@@ -196,6 +198,7 @@ color: white;
         padding: 12px 15px;
         text-align: center;
         margin: auto;
+        padding-right: 93px;
     }
     .icon_f{
         margin-top: 20px;
@@ -234,5 +237,15 @@ color: white;
 @media(max-width:376px){
     .iiframe{
         width: 250px;
+    }
+    .redes_sociales{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 45px;
+        padding: 12px 15px;
+        text-align: center;
+        margin: auto;
+        padding-left: 30px;
     }
 }
